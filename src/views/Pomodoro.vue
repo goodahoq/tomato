@@ -20,17 +20,11 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/scss/main.scss";
-.development {
-  .pomodoro-container {
-    background-image: url("../assets/img/bg_img_day.jpg");
-  }
+
+.pomodoro-container {
+  background-image: url("../assets/img/bg_img_day.jpg");
 }
 
-.production {
-  .pomodoro-container {
-    background-image: url("/tomato/dist/img/bg_img_day.jpg");
-  }
-}
 .pomodoro-container {
   color: $dark-red;
   // background-image: url("../assets/img/bg_img_day.jpg");
